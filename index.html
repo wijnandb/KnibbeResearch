@@ -339,7 +339,7 @@ We create scans for your portfolio based on a large number of criteria and we ca
                 	<h3>More information?</h3>
                 	<script type="text/javascript">var submittedDown=false;</script>
 					<iframe name="hidden_iframeDown" id="hidden_iframeDown" style="display:none;" onload="if(submittedDown) {formSubmit('form2')}"></iframe>
-						<form role="form" name = 'emailform' action="https://docs.google.com/a/perceptum.nl/forms/d/1939-lhv3WkMhOM8FREaVxOd30OQoBlzl97YHJKdav4k/formResponse" method="post" target="hidden_iframeDown" onsubmit="submittedDown=true;">
+						<form role="form" name = 'emailform' action="https://docs.google.com/a/perceptum.nl/forms/d/1939-lhv3WkMhOM8FREaVxOd30OQoBlzl97YHJKdav4k/formResponse" method="post" target="hidden_iframeDown"  onsubmit="showHide()">
 
 	              				<div class="form-group">
 	                				<label aria-hidden="true" for="entry_1117052637">Name</label>
@@ -363,6 +363,9 @@ We create scans for your portfolio based on a large number of criteria and we ca
 	              				</div>
 
             		</form>
+            				<div id="hidden_div" style="display:none">
+								<p>Thank you for leaving a message. We will be in touch!</p>
+							</div>
         		</div>
             </div>
             <!-- /.row -->
@@ -413,6 +416,17 @@ We create scans for your portfolio based on a large number of criteria and we ca
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/modern-business.js"></script>
+    <script type="text/javascript">
+		 function showHide() {
+		   var div = document.getElementById('hidden_div');
+		   if (div.style.display == 'none') {
+		     div.style.display = '';
+		   }
+		   else {
+		     div.style.display = 'none';
+		   }
+		 }
+	</script>
 
 </body>
 
