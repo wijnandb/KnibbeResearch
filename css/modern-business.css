@@ -17,6 +17,59 @@ body {
  /* body padding for fixed top nav */
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6em;
+  text-align:left;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color:#b20005;
+  font-size: 1.5em
+}
+
+.readmore-dialog {
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6em;
+  text-align:left;
+  width: 1000px !important;
+  height: 500px !important;
+  border: 3px solid #666;
+}
+
+.ui-dialog-titlebar {
+  background: #b20005;
+  font-family: 'Open Sans', sans-serif;
+  color:#ffffff;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.ui-dialog-titlebar-close {
+  color:white;
+}
+
+.center {
+  text-align: center;
+}
+
+.open-dialog{
+  background-color: #ffffff;
+  border-radius:3px;
+  color: #b20005;
+  border: 0;
+}
+
+.open-dialog:hover{
+  text-decoration: underline;
+}
+
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
