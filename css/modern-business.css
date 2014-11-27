@@ -31,15 +31,6 @@ h3 {
   font-size: 1.5em
 }
 
-.img-flipped {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
-}
-
 .row {
   background-color:transparent;
   border:none;
@@ -49,9 +40,19 @@ h3 {
   border:none;
 }
 
-.scaled {
-  height:200px;
-  width: 200px;
+.scaled-half {
+  height:50%;
+  width: 50%;
+}
+
+.scaled-quarter {
+  height:25%;
+  width: 25%;
+}
+
+.scaled-eighth {
+  height:12.5%;
+  width: 12.5%;
 }
 
 .readmore-dialog {
@@ -206,6 +207,21 @@ h3 {
   font-style: italic;
 }
 
+.btn, .btn-primary{
+  background-color: #b20005;
+  border:none;
+  border: 1px solid #ffffff;
+}
+
+.btn:hover, .btn-primary:hover {
+  color: #b20005;
+  background-color: #ffffff;
+  border: 1px solid #b20005;
+}
+
+a.red-link {
+  color: #b20005;
+}
 /* Footer Styles */
 footer {
   margin: 50px 0;
